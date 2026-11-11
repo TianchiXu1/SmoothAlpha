@@ -1,0 +1,12 @@
+# Python 3.11; CUDA wheels can be selected using the official PyTorch installer.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+Pillow==11.0.0
+PyYAML==6.0.2
+scikit-image==0.24.0
+opencv-python-headless==4.10.0.84
+lpips==0.1.4
+pytorch-msssim==1.0.0
+transformers==4.49.0
+safetensors==0.4.5

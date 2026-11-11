@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the SmoothAlpha paper when using this software."
+type: software
+title: "SmoothAlpha: A Unified Physics-Conditioned Latent-Predictive Framework for Low-Visibility Image Restoration"
+authors:
+  - family-names: Xu
+    given-names: Tianchi
+  - family-names: He
+    given-names: Yuanpeng
+  - family-names: Huang
+    given-names: Yuanzheng
+  - family-names: Wei
+    given-names: Yuanjia
+  - family-names: Jiao
+    given-names: Wenpin
+  - family-names: Jin
+    given-names: Zhi
+repository-code: "https://github.com/tianchi-xu/SmoothAlpha"
+license: MIT

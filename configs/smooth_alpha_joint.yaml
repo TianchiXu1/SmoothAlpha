@@ -1,0 +1,33 @@
+seed: 42
+image_size: 256
+domains: [water, fog, smoke]
+epochs: 50
+epoch_samples: 2136
+batch_size: 8
+num_workers: 4
+learning_rate: 0.0002
+minimum_learning_rate: 0.000001
+weight_decay: 0.0001
+gradient_clip: 1.0
+gradient_norm_momentum: 0.99
+validation_every: 5
+loss:
+  reconstruction: 1.2
+  ms_ssim: 0.7
+  observation_consistency: 0.1
+  extinction_tv: 0.01
+  extinction_amplitude: 0.001
+  veiling_tv: 0.001
+  output_tv: 0.001
+  perceptual: 0.5
+  perceptual_start_epoch: 20
+  perceptual_ramp_epochs: 5
+  latent: 0.1
+  latent_warmup_epochs: 5
+ema:
+  start: 0.996
+  end: 1.0
+depth:
+  model: depth-anything/Depth-Anything-V2-Small-hf
+  image_source: raw
+  normalization: per_image_minmax
